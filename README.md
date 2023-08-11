@@ -1,2 +1,2 @@
-# ME7230
+# AS5990
 Micromechanics
