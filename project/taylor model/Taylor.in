@@ -1,0 +1,49 @@
+! Text File for Euler angles
+random.eul
+! Select the type of crystal system 1:FCC or 2:BCC(2 modes) or 3:BCC(1 mode)
+1
+! Number of Slip Systems
+12
+! Planes for all slip systems in the order of FCC, BCC-1 and BCC-2
+ 1  1  1      0  1  1   -1 -1 -2 
+ 1  1  1      1  0  1   -1  2  1
+ 1  1  1      1 -1  0    2 -1  1
+-1  1  1      0  1 -1   -1  1 -2
+-1  1  1      1  0  1   -1 -2  1
+-1  1  1      1  1  0    2  1  1
+-1 -1  1      0  1  1    2  1 -1
+-1 -1  1      1  0 -1   -1 -2 -1
+-1 -1  1      1  1  0   -1  1  2
+ 1 -1  1      0  1 -1    2 -1 -1
+ 1 -1  1      1  0 -1   -1  2 -1
+ 1 -1  1      1 -1  0   -1 -1  2
+! Corrseponding Directions for all slip systems in the order of FCC and BCC
+ 0  1 -1      1  1 -1
+ 1  0 -1      1  1 -1
+ 1 -1  0      1  1 -1
+ 0  1 -1      1 -1 -1
+ 1  0  1      1 -1 -1
+ 1  1  0      1 -1 -1
+ 0  1  1      1 -1  1
+ 1  0  1      1 -1  1
+ 1 -1  0      1 -1  1
+ 0  1  1      1  1  1
+ 1  0 -1      1  1  1
+ 1  1  0      1  1  1
+! CRSS for all slip systems
+1
+! No. of increments
+20
+! Time tdot
+1
+! Velocity Gradient
+-0.5  0.0  0.0
+0.0  -0.5  0.0
+0.0  0.0 1.0
+! Select the type of hardening 1:Linear or 2:Voce or 3:None
+3
+! Linear hardening constant
+100.0
+! Enter the Voce hardening parameters tau0, tau1, theta0, theta1
+1.0 0.0 0.0 0.0
+1.0 0.0 0.0 0.0
